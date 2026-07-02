@@ -352,6 +352,91 @@ nav {
   line-height: 1.75;
 }
 
+/* PROVIDER FORM */
+.provider-form {
+  padding: 90px 0;
+  background: var(--navy);
+  text-align: center;
+  color: var(--white);
+}
+
+.provider-form .section-label {
+  color: var(--blue-bright);
+}
+
+.provider-form h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: var(--white);
+}
+
+.provider-form .section-sub {
+  color: rgba(255,255,255,0.75);
+  margin: 0 auto 48px;
+}
+
+.provider-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.provider-benefit {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+  padding: 28px;
+  transition: background 0.2s;
+}
+
+.provider-benefit:hover {
+  background: rgba(255,255,255,0.14);
+}
+
+.provider-benefit-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.provider-benefit h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--white);
+}
+
+.provider-benefit p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.6;
+}
+
+.form-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--blue), var(--blue-bright));
+  color: var(--white);
+  padding: 16px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  transition: opacity 0.2s, transform 0.2s;
+  box-shadow: 0 4px 20px rgba(26,143,227,0.4);
+}
+
+.form-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .provider-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* CONTACT */
 .contact {
   padding: 90px 0;
