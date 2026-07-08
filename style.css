@@ -401,6 +401,74 @@ nav {
   line-height: 1.75;
 }
 
+/* CAREGIVER CTA */
+.caregiver-cta {
+  padding: 90px 0;
+  background: var(--light);
+}
+
+.caregiver-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: var(--navy);
+}
+
+.caregiver-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+  background: var(--white);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 16px rgba(43,45,110,0.08);
+}
+
+.caregiver-questions h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+
+.caregiver-questions ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.caregiver-questions li {
+  font-size: 14px;
+  color: var(--gray);
+  padding-left: 22px;
+  position: relative;
+}
+
+.caregiver-questions li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.caregiver-action {
+  text-align: center;
+}
+
+.caregiver-text-btn {
+  display: inline-block;
+  width: 100%;
+}
+
+.caregiver-note {
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--gray);
+}
+
 /* PROVIDER FORM */
 .provider-form {
   padding: 90px 0;
@@ -639,12 +707,17 @@ footer p {
 
   .values,
   .services-grid,
-  .about-photos {
+  .about-photos,
+  .caregiver-grid {
     grid-template-columns: 1fr;
   }
 
   .split-img-item {
     height: 180px;
+  }
+
+  .caregiver-grid {
+    padding: 28px;
   }
 
   .nav-links {
