@@ -416,12 +416,12 @@ nav {
 
 .caregiver-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 48px;
   align-items: center;
   background: var(--white);
   border-radius: 16px;
-  padding: 40px;
+  padding: 48px;
   box-shadow: 0 4px 16px rgba(43,45,110,0.08);
 }
 
@@ -429,20 +429,20 @@ nav {
   font-size: 16px;
   font-weight: 700;
   color: var(--navy);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 .caregiver-questions ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
 }
 
 .caregiver-questions li {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--gray);
-  padding-left: 22px;
+  padding-left: 26px;
   position: relative;
 }
 
@@ -456,6 +456,9 @@ nav {
 
 .caregiver-action {
   text-align: center;
+  padding: 36px 28px;
+  background: var(--blue-light);
+  border-radius: 14px;
 }
 
 .caregiver-text-btn {
@@ -464,7 +467,7 @@ nav {
 }
 
 .caregiver-note {
-  margin-top: 14px;
+  margin-top: 16px;
   font-size: 13px;
   color: var(--gray);
 }
@@ -718,6 +721,11 @@ footer p {
 
   .caregiver-grid {
     padding: 28px;
+    gap: 28px;
+  }
+
+  .caregiver-action {
+    padding: 28px 20px;
   }
 
   .nav-links {
