@@ -307,23 +307,19 @@ nav {
   line-height: 1.7;
 }
 
-/* SPLIT IMAGES */
-.split-images {
-  padding: 56px 0;
-  background: var(--light);
-}
-
-.split-images-inner {
+/* ABOUT PHOTOS */
+.about-photos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 20px;
+  margin-bottom: 40px;
 }
 
 .split-img-item {
   position: relative;
-  height: 220px;
+  height: 160px;
   overflow: hidden;
-  border-radius: 14px;
+  border-radius: 12px;
   box-shadow: 0 4px 16px rgba(43,45,110,0.1);
 }
 
@@ -643,12 +639,12 @@ footer p {
 
   .values,
   .services-grid,
-  .split-images-inner {
+  .about-photos {
     grid-template-columns: 1fr;
   }
 
   .split-img-item {
-    height: 200px;
+    height: 180px;
   }
 
   .nav-links {
